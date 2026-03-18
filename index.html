@@ -5,77 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Model Assignment</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <h1 class="logo">JD</h1>
+    <div class="container">
+        <nav>
+            <div class="navbar">
+                <h1 class="logo">JD</h1>
+                
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                </ul>
+            </div>
+        </nav>
 
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-        </ul>
-    </nav>
 
+        <main class="container1">
+            <div class="sect1">
+                <h3 class="hello">Hi, I am</h3>
 
-    <main class="container1">
-        <div class="sect1">
-            <h5 class="hello">Hi, I am</h5>
-            <h1 class="name">Jane Doe</h1>
-            <p class="intro">
-                Lorem ipsum dolor sit amet consectetur. Vitae maecenas pellentesque tellus tempus purus integer nisi cras 
-                fermentum.Lorem ipsum dolor sit amet consectetur. Vitae maecenas pellentesque tellus tempus purus integer nisi 
-                cras fermentum.
-            </p>
-            <button class="btn1">Explore More</button>
-        </div>
-        <div class="jane-img">
-            <img 
+                <h1 class="name">Jane Doe</h1>
+
+                <p class="content1">
+                    Lorem ipsum dolor sit amet consectetur. Vitae maecenas pellentesque tellus tempus purus integer nisi cras 
+                    fermentum.Lorem ipsum dolor sit amet consectetur. Vitae maecenas pellentesque tellus tempus purus integer nisi 
+                    cras fermentum.
+                </p>
+
+                <button class="btn1">Explore More</button>
+            </div>
+
+            <div class="janeimg">
+                
+                <img 
                 src="images/woman-dreads.png" 
                 alt="A photo of Jane Doe"
-            >
-        </div>
-    </main>
+                >
+            </div>
+        </main>
 
 
-    <section class="container2">
-        <div class="career-img">
-            <img 
-                src="images/programming-cuate.png" 
-                alt="A photo of a programmer"
-            >
-        </div>
+        <section class="container2">
+            <div class="careerimg">
+                <img 
+                    src="images/programming-cuate.png" 
+                    alt="A photo of a programmer"
+                >
+            </div>
 
-        <div class="sect2">
-            <h5 class="about">About</h5>
-            <h2 class="web-dev">I am a Web Developer</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur. Orci amet turpis venenatis vel nunc praesent massa pellentesque. Vitae 
-                semper vel donec velit pulvinar amet augue nulla at. Urna etiam Lorem ipsum dolor sit amet consectetur. Orci 
-            </p>
-            <p>
-               amet turpis velit pulvinar amet augue nulla at. Urna etiam faucibus in ut est congue aliquam. amet turpis velit 
-               pulvinar amet augue nulla at. Urna etiam faucibus in ut est congue aliquam
-            </p>
-            <button class="btn2">Download CV</button>
-        </div>
-    </section>
+            <div class="sect2">
+                <h4 class="about">About</h4>
 
+                <h2 class="web-dev">I am a Web Developer</h2>
 
-    <footer class="container3">
-        <h5 class="skills">Skills</h5>
-        <h1 class="tech-stacks">My Tech Stacks</h1>
-        <section class="tech-logos">
-            <img 
-                src="images/html-logo.png" 
-                alt="HTML Logo"
-            >
+                <p class="content2">
+                    Lorem ipsum dolor sit amet consectetur. Orci amet turpis venenatis vel nunc praesent massa pellentesque. Vitae 
+                    semper vel donec velit pulvinar amet augue nulla at. Urna etiam Lorem ipsum dolor sit amet consectetur. Orci 
+                </p>
 
-            <img 
-                src="images/css-logo.png" 
-                alt="CSS Logo"
-            >
+                <p class="content2">
+                    amet turpis velit pulvinar amet augue nulla at. Urna etiam faucibus in ut est congue aliquam. amet turpis velit 
+                    pulvinar amet augue nulla at. Urna etiam faucibus in ut est congue aliquam
+                </p>
+
+                <button class="btn2">Download CV</button>
+            </div>
         </section>
-    </footer>
+
+
+        <footer class="container3">
+            <h4 class="skills">Skills</h4>
+
+            <h1 class="tech-stacks">My Tech Stacks</h1>
+
+            <section class="techlogos">
+                <div class="htmllogo">
+                    <img 
+                        src="images/html-logo.png" 
+                        alt="HTML Logo"
+                   >
+                </div>
+
+                <div class="csslogo">
+                    <img 
+                    src="images/css-logo.png" 
+                    alt="CSS Logo"
+                    >
+                </div>
+            </section>
+        </footer>
+    </div>
 </body>
 </html>
