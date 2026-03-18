@@ -101,6 +101,8 @@ li a {
     background-color: #5D5FEF;
     width: 225px;
     height: 52px;
+    border: 1px;
+    border-radius: 8px;
 }
 
 .container3 {
